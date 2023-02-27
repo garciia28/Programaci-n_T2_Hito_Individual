@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_formulario.css">
+    <link rel="icon" type="image/x-icon" href="img/Logo.ico">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="formulario.php" method="post">
+        <section class="form-register">
+            <h4>Formulario de Registro</h4>
+            <input class="controls" type="email" name="correo" placeholder="Ingrese su correo electrónico" required>
+            <input class="controls" type="password" name="pass" placeholder="Ingrese su contraseña" required>
+            <input class="controls" type="text" name="titulo" placeholder="Ingrese el nombre del título de su blog" required>
+            <input class="controls" type="text" name="contenido" placeholder="Ingrese el contenido de su blog" required>
+            <input class="controls" type="date" name="fecha" placeholder="Ingrese la fecha de publicación prevista para su blog">
+            <input class="controls" type="file" name="imagen" placeholder="Ingrese la imagen que quiere para su blog">
+            <input class="botons" type="submit" value="Registrar" name="enviar">
+        </section>
+    </form>
+</body>
+</html>
